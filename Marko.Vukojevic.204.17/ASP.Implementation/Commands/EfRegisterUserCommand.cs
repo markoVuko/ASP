@@ -51,7 +51,7 @@ namespace ASP.Implementation.Commands
                 IsActive=true
             };
 
-            var useCases = new[] { 9, 10, 21, 26, 22, 23, 24, 25, 28, 29, 30, 41, 42, 43, 44, 45 }; 
+            var useCases = new[] { 9, 10, 18, 21, 26, 22, 23, 24, 25, 28, 29, 30, 41, 42, 43, 44, 45 }; 
             var uCs = new List<UserUseCase>();
             foreach(var uC in useCases)
             {
